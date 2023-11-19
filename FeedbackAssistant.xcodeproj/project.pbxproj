@@ -16,6 +16,8 @@
 		CEFDA9402B09DDCB00FADC09 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA93F2B09DDCB00FADC09 /* SidebarView.swift */; };
 		CEFDA9422B09DDE200FADC09 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA9412B09DDE200FADC09 /* DetailView.swift */; };
 		CEFDA9442B09DFA300FADC09 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA9432B09DFA300FADC09 /* Filter.swift */; };
+		CEFDA9462B0A157300FADC09 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA9452B0A157300FADC09 /* Issue-CoreDataHelpers.swift */; };
+		CEFDA9482B0A17B300FADC09 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA9472B0A17B300FADC09 /* Tag-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		CEFDA93F2B09DDCB00FADC09 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		CEFDA9412B09DDE200FADC09 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CEFDA9432B09DFA300FADC09 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		CEFDA9452B0A157300FADC09 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		CEFDA9472B0A17B300FADC09 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				CEFDA9412B09DDE200FADC09 /* DetailView.swift */,
 				CE9B36292B09BE68004DB504 /* DataController.swift */,
 				CEFDA9432B09DFA300FADC09 /* Filter.swift */,
+				CEFDA9452B0A157300FADC09 /* Issue-CoreDataHelpers.swift */,
+				CEFDA9472B0A17B300FADC09 /* Tag-CoreDataHelpers.swift */,
 				CE9B36262B09BB09004DB504 /* Main.xcdatamodeld */,
 				CE9B361B2B09978A004DB504 /* Assets.xcassets */,
 				CE9B361D2B09978A004DB504 /* FeedbackAssistant.entitlements */,
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFDA9442B09DFA300FADC09 /* Filter.swift in Sources */,
+				CEFDA9482B0A17B300FADC09 /* Tag-CoreDataHelpers.swift in Sources */,
 				CE9B36282B09BB09004DB504 /* Main.xcdatamodeld in Sources */,
+				CEFDA9462B0A157300FADC09 /* Issue-CoreDataHelpers.swift in Sources */,
 				CEFDA9422B09DDE200FADC09 /* DetailView.swift in Sources */,
 				CE9B362A2B09BE68004DB504 /* DataController.swift in Sources */,
 				CEFDA9402B09DDCB00FADC09 /* SidebarView.swift in Sources */,
