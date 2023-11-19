@@ -19,6 +19,8 @@
 		CEFDA9462B0A157300FADC09 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA9452B0A157300FADC09 /* Issue-CoreDataHelpers.swift */; };
 		CEFDA9482B0A17B300FADC09 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA9472B0A17B300FADC09 /* Tag-CoreDataHelpers.swift */; };
 		CEFDA94A2B0A268600FADC09 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA9492B0A268600FADC09 /* IssueRow.swift */; };
+		CEFDA94C2B0A69C000FADC09 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA94B2B0A69C000FADC09 /* IssueView.swift */; };
+		CEFDA94E2B0A69C800FADC09 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDA94D2B0A69C800FADC09 /* NoIssueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		CEFDA9452B0A157300FADC09 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		CEFDA9472B0A17B300FADC09 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		CEFDA9492B0A268600FADC09 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
+		CEFDA94B2B0A69C000FADC09 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
+		CEFDA94D2B0A69C800FADC09 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				CEFDA9492B0A268600FADC09 /* IssueRow.swift */,
 				CEFDA93F2B09DDCB00FADC09 /* SidebarView.swift */,
 				CEFDA9412B09DDE200FADC09 /* DetailView.swift */,
+				CEFDA94B2B0A69C000FADC09 /* IssueView.swift */,
+				CEFDA94D2B0A69C800FADC09 /* NoIssueView.swift */,
 				CE9B36292B09BE68004DB504 /* DataController.swift */,
 				CEFDA9432B09DFA300FADC09 /* Filter.swift */,
 				CEFDA9452B0A157300FADC09 /* Issue-CoreDataHelpers.swift */,
@@ -173,6 +179,8 @@
 				CE9B362A2B09BE68004DB504 /* DataController.swift in Sources */,
 				CEFDA9402B09DDCB00FADC09 /* SidebarView.swift in Sources */,
 				CE9B361A2B099789004DB504 /* ContentView.swift in Sources */,
+				CEFDA94C2B0A69C000FADC09 /* IssueView.swift in Sources */,
+				CEFDA94E2B0A69C800FADC09 /* NoIssueView.swift in Sources */,
 				CEFDA94A2B0A268600FADC09 /* IssueRow.swift in Sources */,
 				CE9B36182B099789004DB504 /* FeedbackAssistantApp.swift in Sources */,
 			);
