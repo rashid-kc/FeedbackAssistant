@@ -23,7 +23,7 @@ extension Issue {
     }
     
     var issueModificationDate: Date {
-        creationDate ?? .now
+        modificationDate ?? .now
     }
     
     var issueTags: [Tag] {
