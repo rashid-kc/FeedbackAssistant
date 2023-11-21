@@ -19,11 +19,11 @@ struct SidebarViewToolbar: View {
             Label("Add samples", systemImage: "flame")
         }
         #endif
-        
+
         Button(action: dataController.newTag) {
             Label("Add tag", systemImage: "plus")
         }
-        
+
         Button {
             showingAwards.toggle()
         } label: {
