@@ -61,7 +61,7 @@
 		CE9B361F2B09978A004DB504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE9B36272B09BB09004DB504 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		CE9B36292B09BE68004DB504 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		CEFDA93E2B09D89200FADC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEFDA93E2B09D89200FADC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFDA93F2B09DDCB00FADC09 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		CEFDA9412B09DDE200FADC09 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CEFDA9432B09DFA300FADC09 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
@@ -83,6 +83,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE395FED2B0C883B00522A2A /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDA9432B09DFA300FADC09 /* Filter.swift */,
+				CEFDA93F2B09DDCB00FADC09 /* SidebarView.swift */,
+				CE395FE02B0C35F800522A2A /* SidebarViewToolbar.swift */,
+				CE395FE82B0C3E3E00522A2A /* SmartFilterRow.swift */,
+				CE395FEA2B0C3F0900522A2A /* UserFilterRow.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		CE395FEE2B0C887B00522A2A /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B36192B099789004DB504 /* ContentView.swift */,
+				CEFDA9492B0A268600FADC09 /* IssueRow.swift */,
+				CE395FE42B0C3A0800522A2A /* ContentViewToolbar.swift */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		CE395FEF2B0C88C700522A2A /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDA9412B09DDE200FADC09 /* DetailView.swift */,
+				CEFDA94B2B0A69C000FADC09 /* IssueView.swift */,
+				CE395FE22B0C38C800522A2A /* IssueViewToolbar.swift */,
+				CEFDA94D2B0A69C800FADC09 /* NoIssueView.swift */,
+				CE395FE62B0C3C5000522A2A /* TagsMenuView.swift */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		CE395FF02B0C890500522A2A /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				CE395FCC2B0B339C00522A2A /* Award.swift */,
+				CE395FCE2B0B347200522A2A /* AwardView.swift */,
+				CE395FDE2B0B7FA700522A2A /* Awards.json */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		CE395FF12B0C894300522A2A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				CE395FD62B0B7CB100522A2A /* Localizable.strings */,
+				CE395FDA2B0B7D4400522A2A /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		CE395FF22B0C895F00522A2A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE395FC62B0B2B2500522A2A /* Bundle-Decodable.swift */,
+				CEFDA9452B0A157300FADC09 /* Issue-CoreDataHelpers.swift */,
+				CEFDA9472B0A17B300FADC09 /* Tag-CoreDataHelpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE395FF32B0C897900522A2A /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B361D2B09978A004DB504 /* FeedbackAssistant.entitlements */,
+				CEFDA93E2B09D89200FADC09 /* Info.plist */,
+				CE9B36262B09BB09004DB504 /* Main.xcdatamodeld */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
 		CE9B360B2B099789004DB504 = {
 			isa = PBXGroup;
 			children = (
@@ -102,34 +175,17 @@
 		CE9B36162B099789004DB504 /* FeedbackAssistant */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDA93E2B09D89200FADC09 /* Info.plist */,
+				CE395FED2B0C883B00522A2A /* Filters */,
+				CE395FEE2B0C887B00522A2A /* Issues */,
+				CE395FEF2B0C88C700522A2A /* Editing */,
+				CE395FF02B0C890500522A2A /* Awards */,
+				CE395FF22B0C895F00522A2A /* Extensions */,
+				CE395FF12B0C894300522A2A /* Localization */,
 				CE9B36172B099789004DB504 /* FeedbackAssistantApp.swift */,
-				CE9B36192B099789004DB504 /* ContentView.swift */,
-				CE395FE42B0C3A0800522A2A /* ContentViewToolbar.swift */,
-				CEFDA9492B0A268600FADC09 /* IssueRow.swift */,
-				CEFDA93F2B09DDCB00FADC09 /* SidebarView.swift */,
-				CE395FE02B0C35F800522A2A /* SidebarViewToolbar.swift */,
-				CE395FE82B0C3E3E00522A2A /* SmartFilterRow.swift */,
-				CE395FEA2B0C3F0900522A2A /* UserFilterRow.swift */,
-				CEFDA9412B09DDE200FADC09 /* DetailView.swift */,
-				CEFDA94B2B0A69C000FADC09 /* IssueView.swift */,
-				CE395FE22B0C38C800522A2A /* IssueViewToolbar.swift */,
-				CE395FE62B0C3C5000522A2A /* TagsMenuView.swift */,
-				CEFDA94D2B0A69C800FADC09 /* NoIssueView.swift */,
-				CE395FCE2B0B347200522A2A /* AwardView.swift */,
 				CE9B36292B09BE68004DB504 /* DataController.swift */,
-				CEFDA9432B09DFA300FADC09 /* Filter.swift */,
-				CE395FC62B0B2B2500522A2A /* Bundle-Decodable.swift */,
-				CE395FCC2B0B339C00522A2A /* Award.swift */,
-				CE395FD62B0B7CB100522A2A /* Localizable.strings */,
-				CE395FDA2B0B7D4400522A2A /* Localizable.stringsdict */,
-				CEFDA9452B0A157300FADC09 /* Issue-CoreDataHelpers.swift */,
-				CEFDA9472B0A17B300FADC09 /* Tag-CoreDataHelpers.swift */,
-				CE9B36262B09BB09004DB504 /* Main.xcdatamodeld */,
+				CE395FF32B0C897900522A2A /* Configurations */,
 				CE9B361B2B09978A004DB504 /* Assets.xcassets */,
-				CE395FDE2B0B7FA700522A2A /* Awards.json */,
 				CE395FC82B0B32E700522A2A /* Colors.xcassets */,
-				CE9B361D2B09978A004DB504 /* FeedbackAssistant.entitlements */,
 				CE9B361E2B09978A004DB504 /* Preview Content */,
 			);
 			path = FeedbackAssistant;
@@ -417,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FeedbackAssistant/FeedbackAssistant.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FeedbackAssistant/Configurations/FeedbackAssistant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FeedbackAssistant/Preview Content\"";
@@ -425,7 +481,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FeedbackAssistant/Info.plist;
+				INFOPLIST_FILE = FeedbackAssistant/Configurations/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -456,7 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FeedbackAssistant/FeedbackAssistant.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FeedbackAssistant/Configurations/FeedbackAssistant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FeedbackAssistant/Preview Content\"";
@@ -464,7 +520,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FeedbackAssistant/Info.plist;
+				INFOPLIST_FILE = FeedbackAssistant/Configurations/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
