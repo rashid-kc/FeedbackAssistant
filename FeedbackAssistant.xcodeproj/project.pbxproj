@@ -14,6 +14,12 @@
 		CE395FD42B0B7CB100522A2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE395FD62B0B7CB100522A2A /* Localizable.strings */; };
 		CE395FD82B0B7D4400522A2A /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = CE395FDA2B0B7D4400522A2A /* Localizable.stringsdict */; };
 		CE395FDC2B0B7FA700522A2A /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = CE395FDE2B0B7FA700522A2A /* Awards.json */; };
+		CE395FE12B0C35F800522A2A /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE395FE02B0C35F800522A2A /* SidebarViewToolbar.swift */; };
+		CE395FE32B0C38C800522A2A /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE395FE22B0C38C800522A2A /* IssueViewToolbar.swift */; };
+		CE395FE52B0C3A0800522A2A /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE395FE42B0C3A0800522A2A /* ContentViewToolbar.swift */; };
+		CE395FE72B0C3C5000522A2A /* TagsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE395FE62B0C3C5000522A2A /* TagsMenuView.swift */; };
+		CE395FE92B0C3E3E00522A2A /* SmartFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE395FE82B0C3E3E00522A2A /* SmartFilterRow.swift */; };
+		CE395FEB2B0C3F0900522A2A /* UserFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE395FEA2B0C3F0900522A2A /* UserFilterRow.swift */; };
 		CE9B36182B099789004DB504 /* FeedbackAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B36172B099789004DB504 /* FeedbackAssistantApp.swift */; };
 		CE9B361A2B099789004DB504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B36192B099789004DB504 /* ContentView.swift */; };
 		CE9B361C2B09978A004DB504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9B361B2B09978A004DB504 /* Assets.xcassets */; };
@@ -41,6 +47,12 @@
 		CE395FDB2B0B7D4500522A2A /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		CE395FDD2B0B7FA700522A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		CE395FDF2B0B7FAB00522A2A /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		CE395FE02B0C35F800522A2A /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
+		CE395FE22B0C38C800522A2A /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
+		CE395FE42B0C3A0800522A2A /* ContentViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewToolbar.swift; sourceTree = "<group>"; };
+		CE395FE62B0C3C5000522A2A /* TagsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsMenuView.swift; sourceTree = "<group>"; };
+		CE395FE82B0C3E3E00522A2A /* SmartFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFilterRow.swift; sourceTree = "<group>"; };
+		CE395FEA2B0C3F0900522A2A /* UserFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFilterRow.swift; sourceTree = "<group>"; };
 		CE9B36142B099789004DB504 /* FeedbackAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedbackAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9B36172B099789004DB504 /* FeedbackAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackAssistantApp.swift; sourceTree = "<group>"; };
 		CE9B36192B099789004DB504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,10 +105,16 @@
 				CEFDA93E2B09D89200FADC09 /* Info.plist */,
 				CE9B36172B099789004DB504 /* FeedbackAssistantApp.swift */,
 				CE9B36192B099789004DB504 /* ContentView.swift */,
+				CE395FE42B0C3A0800522A2A /* ContentViewToolbar.swift */,
 				CEFDA9492B0A268600FADC09 /* IssueRow.swift */,
 				CEFDA93F2B09DDCB00FADC09 /* SidebarView.swift */,
+				CE395FE02B0C35F800522A2A /* SidebarViewToolbar.swift */,
+				CE395FE82B0C3E3E00522A2A /* SmartFilterRow.swift */,
+				CE395FEA2B0C3F0900522A2A /* UserFilterRow.swift */,
 				CEFDA9412B09DDE200FADC09 /* DetailView.swift */,
 				CEFDA94B2B0A69C000FADC09 /* IssueView.swift */,
+				CE395FE22B0C38C800522A2A /* IssueViewToolbar.swift */,
+				CE395FE62B0C3C5000522A2A /* TagsMenuView.swift */,
 				CEFDA94D2B0A69C800FADC09 /* NoIssueView.swift */,
 				CE395FCE2B0B347200522A2A /* AwardView.swift */,
 				CE9B36292B09BE68004DB504 /* DataController.swift */,
@@ -201,7 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFDA9442B09DFA300FADC09 /* Filter.swift in Sources */,
+				CE395FE72B0C3C5000522A2A /* TagsMenuView.swift in Sources */,
 				CEFDA9482B0A17B300FADC09 /* Tag-CoreDataHelpers.swift in Sources */,
+				CE395FE32B0C38C800522A2A /* IssueViewToolbar.swift in Sources */,
+				CE395FE92B0C3E3E00522A2A /* SmartFilterRow.swift in Sources */,
 				CE9B36282B09BB09004DB504 /* Main.xcdatamodeld in Sources */,
 				CEFDA9462B0A157300FADC09 /* Issue-CoreDataHelpers.swift in Sources */,
 				CE395FC72B0B2B2500522A2A /* Bundle-Decodable.swift in Sources */,
@@ -209,9 +230,12 @@
 				CE9B362A2B09BE68004DB504 /* DataController.swift in Sources */,
 				CEFDA9402B09DDCB00FADC09 /* SidebarView.swift in Sources */,
 				CE9B361A2B099789004DB504 /* ContentView.swift in Sources */,
+				CE395FE52B0C3A0800522A2A /* ContentViewToolbar.swift in Sources */,
 				CE395FCF2B0B347200522A2A /* AwardView.swift in Sources */,
 				CEFDA94C2B0A69C000FADC09 /* IssueView.swift in Sources */,
+				CE395FE12B0C35F800522A2A /* SidebarViewToolbar.swift in Sources */,
 				CEFDA94E2B0A69C800FADC09 /* NoIssueView.swift in Sources */,
+				CE395FEB2B0C3F0900522A2A /* UserFilterRow.swift in Sources */,
 				CE395FCD2B0B339C00522A2A /* Award.swift in Sources */,
 				CEFDA94A2B0A268600FADC09 /* IssueRow.swift in Sources */,
 				CE9B36182B099789004DB504 /* FeedbackAssistantApp.swift in Sources */,
