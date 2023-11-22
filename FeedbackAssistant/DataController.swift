@@ -16,7 +16,6 @@ enum Status {
     case all, open, closed
 }
 
-
 /// An environment singleton responsible for managing our CoreDataStack, including handling saving,
 /// counting fetch requests, tracking awards, and dealing with sample data.
 class DataController: ObservableObject {
@@ -38,7 +37,6 @@ class DataController: ObservableObject {
         dataController.createSampleData()
         return dataController
     }()
-
 
     /// Initializes a data controller, either in memory (for temporary use such as testing and previewing),
     /// or on permanent storage (for use in regular app runs.) Defaults to permanent storage.
