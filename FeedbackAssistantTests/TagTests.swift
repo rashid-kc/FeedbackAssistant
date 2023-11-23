@@ -26,7 +26,7 @@ final class TagTests: BaseTestCase {
             }
         }
 
-        //Then
+        // Then
         XCTAssertEqual(dataController.count(for: Tag.fetchRequest()), count, "Expected \(count) tags")
         XCTAssertEqual(dataController.count(for: Issue.fetchRequest()), issueCount, "Expected \(issueCount) issues")
     }

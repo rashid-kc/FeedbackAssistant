@@ -14,13 +14,13 @@ final class ExtensionTests: BaseTestCase {
         // Given
         let issue = Issue(context: managedObjectContext)
 
-        //When
+        // When
         issue.title = "Example issue"
 
         // Then
         XCTAssertEqual(issue.issueTitle, "Example issue", "Changing title should also change issueTitle")
 
-        //When
+        // When
         issue.issueTitle = "Updated issue"
 
         // Then
@@ -34,13 +34,13 @@ final class ExtensionTests: BaseTestCase {
         // When
         issue.content = "Example content"
 
-        //Then
+        // Then
         XCTAssertEqual(issue.issueContent, "Example content", "Changing content should also change issueContent")
 
-        //When
+        // When
         issue.issueContent = "Updated content"
 
-        //Then
+        // Then
         XCTAssertEqual(issue.content, "Updated content", "Changing issueContent should also change content.")
     }
 

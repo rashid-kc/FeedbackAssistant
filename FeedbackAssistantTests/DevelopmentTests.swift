@@ -42,7 +42,7 @@ final class DevelopmentTests: BaseTestCase {
         // Given
         let issue = Issue.example
 
-        //Then
+        // Then
         XCTAssertEqual(issue.priority, 2, "The example issue should be high priority.")
     }
 }

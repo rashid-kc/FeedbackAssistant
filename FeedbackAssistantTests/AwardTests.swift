@@ -28,7 +28,7 @@ final class AwardTests: BaseTestCase {
         // Given
         let values = [1, 10, 20, 50, 100, 250, 500, 1000]
 
-        //When
+        // When
         for (count, value) in values.enumerated() {
             var issues = [Issue]()
 
@@ -41,7 +41,7 @@ final class AwardTests: BaseTestCase {
                 award.criterion == "issues" && dataController.hasEarned(award: award)
             }
 
-            //Then
+            // Then
             XCTAssertEqual(matches.count, count + 1, "Creating \(value) issues should unlock \(count + 1) awards")
             dataController.deleteAll()
         }

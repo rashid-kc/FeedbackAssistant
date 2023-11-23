@@ -40,6 +40,17 @@
                ReferencedContainer = "container:FeedbackAssistant.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CE6E46AA2B0E219A00679CAB"
+               BuildableName = "FeedbackAssistantUITests.xctest"
+               BlueprintName = "FeedbackAssistantUITests"
+               ReferencedContainer = "container:FeedbackAssistant.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
