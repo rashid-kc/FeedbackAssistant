@@ -50,6 +50,8 @@
 "Medium" = "Medium";
 "High" = "High";
 
+"No tags" = "No tags";
+
 /* Create a new issue */
 "New issue" = "New issue";
 
@@ -85,6 +87,8 @@
 
 /* AWARDS VIEW */
 "Awards" = "Awards";
+"Locked" = "Locked";
+"Unlocked: %@" = "Unlocked :@";
 
 
 

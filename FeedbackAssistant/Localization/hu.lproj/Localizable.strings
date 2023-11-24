@@ -50,6 +50,8 @@
 "Medium" = "Közepes";
 "High" = "Magas";
 
+"No tags" = "Címkétlen";
+
 /* Create a new issue */
 "New issue" = "Új probléma";
 
@@ -85,6 +87,9 @@
 
 /* AWARDS VIEW */
 "Awards" = "Díjak";
+"Locked" = "Zárolt";
+"Unlocked: %@" = "Feloldott: %@";
+
 
 
 
