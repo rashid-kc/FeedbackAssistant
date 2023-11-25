@@ -23,8 +23,8 @@ struct SidebarView: View {
             }
 
             Section("Tags") {
-                ForEach(viewModel.tagFilters) { filter in
-                    UserFilterRow(filter: filter, rename: viewModel.rename, delete: viewModel.delete)
+                ForEach(viewModel.tags) { tag in
+                    UserFilterRow(tag: tag, rename: viewModel.rename, delete: viewModel.delete)
                 }
                 .onDelete(perform: viewModel.delete)
             }

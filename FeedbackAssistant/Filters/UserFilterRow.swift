@@ -8,34 +8,42 @@
 import SwiftUI
 
 struct UserFilterRow: View {
-    var filter: Filter
+    @StateObject var viewModel: ViewModel
+
     var rename: (Filter) -> Void
     var delete: (Filter) -> Void
 
+    init(tag: Tag, rename: @escaping (Filter) -> Void, delete: @escaping (Filter) -> Void) {
+        let viewModel = ViewModel(tag: tag)
+        _viewModel = StateObject(wrappedValue: viewModel)
+        self.rename = rename
+        self.delete = delete
+    }
+
     var body: some View {
-        NavigationLink(value: filter) {
-            Label(filter.name, systemImage: filter.icon)
-                .badge(filter.activeIssueCount)
+        NavigationLink(value: viewModel.tagFilter) {
+            Label(viewModel.name, systemImage: viewModel.icon)
+                .badge(viewModel.activeIssueCount)
                 .contextMenu {
                     Button {
-                        rename(filter)
+                        rename(viewModel.tagFilter)
                     } label: {
                         Label("Rename", systemImage: "pencil")
                     }
 
                     Button(role: .destructive) {
-                        delete(filter)
+                        delete(viewModel.tagFilter)
                     } label: {
                         Label("Delete", systemImage: "trash")
                     }
                 }
                 .accessibilityElement()
-                .accessibilityLabel(filter.name)
-                .accessibilityHint("\(filter.activeIssueCount) issues")
+                .accessibilityLabel(viewModel.name)
+                .accessibilityHint("\(viewModel.activeIssueCount) issues")
         }
     }
 }
 
 #Preview {
-    UserFilterRow(filter: .all, rename: { _ in}, delete: { _ in})
+    UserFilterRow(tag: .example, rename: { _ in}, delete: { _ in})
 }

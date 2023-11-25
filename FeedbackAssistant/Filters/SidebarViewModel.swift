@@ -19,12 +19,6 @@ extension SidebarView {
         @Published var renamingTag = false
         @Published var tagName = ""
 
-        var tagFilters: [Filter] {
-            tags.map { tag in
-                Filter(id: tag.tagID, name: tag.tagName, icon: "tag", tag: tag)
-            }
-        }
-
         init(dataController: DataController) {
             self.dataController = dataController
 

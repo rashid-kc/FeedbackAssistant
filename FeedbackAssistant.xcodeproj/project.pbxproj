@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE36FB3A2B117E1A00277442 /* UserFilterRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36FB392B117E1A00277442 /* UserFilterRowViewModel.swift */; };
 		CE395FC72B0B2B2500522A2A /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE395FC62B0B2B2500522A2A /* Bundle-Decodable.swift */; };
 		CE395FCA2B0B32E700522A2A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE395FC82B0B32E700522A2A /* Colors.xcassets */; };
 		CE395FCD2B0B339C00522A2A /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE395FCC2B0B339C00522A2A /* Award.swift */; };
@@ -68,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE36FB392B117E1A00277442 /* UserFilterRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFilterRowViewModel.swift; sourceTree = "<group>"; };
 		CE395FC62B0B2B2500522A2A /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		CE395FC82B0B32E700522A2A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CE395FCC2B0B339C00522A2A /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				CE395FE02B0C35F800522A2A /* SidebarViewToolbar.swift */,
 				CE395FE82B0C3E3E00522A2A /* SmartFilterRow.swift */,
 				CE395FEA2B0C3F0900522A2A /* UserFilterRow.swift */,
+				CE36FB392B117E1A00277442 /* UserFilterRowViewModel.swift */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				CE395FEB2B0C3F0900522A2A /* UserFilterRow.swift in Sources */,
 				CE395FCD2B0B339C00522A2A /* Award.swift in Sources */,
 				CEFDA94A2B0A268600FADC09 /* IssueRow.swift in Sources */,
+				CE36FB3A2B117E1A00277442 /* UserFilterRowViewModel.swift in Sources */,
 				CE9B36182B099789004DB504 /* FeedbackAssistantApp.swift in Sources */,
 				CEED70002B10522D009FEEE0 /* IssueRowViewModel.swift in Sources */,
 			);
